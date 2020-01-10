@@ -50,7 +50,7 @@
     "@fortawesome/fontawesome-common-types": "^0.2.0-1"
   },
   "version": "1.2.0-6",
-  "name": "@minddocdev/fontawesome",
+  "name": "@fortawesome/fontawesome",
   "main": "index.js",
   "module": "index.es.js",
   "jsnext:main": "index.es.js",

@@ -1,5 +1,5 @@
 {
-  "name": "@minddocdev/vue-fontawesome",
+  "name": "@fortawesome/vue-fontawesome",
   "description": "Official Vue component for Font Awesome 5",
   "version": "0.1.9",
   "main": "index.js",
