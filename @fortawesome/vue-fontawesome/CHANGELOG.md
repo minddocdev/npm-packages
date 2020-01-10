@@ -78,4 +78,4 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 ## [0.0.22](https://github.com/FortAwesome/vue-fontawesome/releases/tag/0.0.22)  - 2017-12-19
 
 ### Changed
-* Support for @fortawesome/fontawesome 1.1.0
+* Support for @minddocdev/fontawesome 1.1.0

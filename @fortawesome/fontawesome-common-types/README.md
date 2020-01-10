@@ -1,8 +1,8 @@
-# @fortawesome/fontawesome-common-types - SVG with JavaScript
+# @minddocdev/fontawesome-common-types - SVG with JavaScript
 
 > "I came here to chew bubblegum and install Font Awesome 5 - and I'm all out of bubblegum"
 
-[![npm](https://img.shields.io/npm/v/@fortawesome/fontawesome-common-types.svg?style=flat-square)](https://www.npmjs.com/package/@fortawesome/fontawesome-common-types)
+[![npm](https://img.shields.io/npm/v/@minddocdev/fontawesome-common-types.svg?style=flat-square)](https://www.npmjs.com/package/@minddocdev/fontawesome-common-types)
 
 ## What is this package?
 
@@ -17,7 +17,7 @@ your.ts
 ```
 import {
   IconName
-} from `@fortawesome/fontawesome-svg-core`
+} from `@minddocdev/fontawesome-svg-core`
 
 const myIcon: IconName = "..."
 ```

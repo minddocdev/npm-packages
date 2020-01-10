@@ -4,7 +4,7 @@
 
 # vue-fontawesome
 
-[![npm](https://img.shields.io/npm/v/@fortawesome/vue-fontawesome.svg?style=flat-square)](https://www.npmjs.com/package/@fortawesome/vue-fontawesome)
+[![npm](https://img.shields.io/npm/v/@minddocdev/vue-fontawesome.svg?style=flat-square)](https://www.npmjs.com/package/@minddocdev/vue-fontawesome)
 [![GitHub Actions Status](https://github.com/FortAwesome/vue-fontawesome/workflows/CI/badge.svg)](https://github.com/FortAwesome/vue-fontawesome/actions)
 
 > Font Awesome 5 Vue component using SVG with JS
@@ -80,7 +80,7 @@ not going to help you. Head over to our "Get Started" page for some guidance.
 
 ### Learn about our new SVG implementation
 
-This package, under the hood, uses SVG with JS and the `@fortawesome/fontawesome-svg-core` library. This implementation differs drastically from
+This package, under the hood, uses SVG with JS and the `@minddocdev/fontawesome-svg-core` library. This implementation differs drastically from
 the web fonts implementation that was used in version 4 and older of Font Awesome. You might head over there to learn about how it works.
 
 > https://fontawesome.com/how-to-use/on-the-web/advanced/svg-javascript-core
@@ -94,9 +94,9 @@ You might also be interested in the larger umbrella project [UPGRADING.md](https
 ## Installation
 
 ```
-$ npm i --save @fortawesome/fontawesome-svg-core
-$ npm i --save @fortawesome/free-solid-svg-icons
-$ npm i --save @fortawesome/vue-fontawesome
+$ npm i --save @minddocdev/fontawesome-svg-core
+$ npm i --save @minddocdev/free-solid-svg-icons
+$ npm i --save @minddocdev/vue-fontawesome
 ```
 
 ## Add more styles or Pro icons
@@ -107,17 +107,17 @@ version 4 to 5 we have a limited number of Regular icons available.
 **Visit [fontawesome.com/icons](https://fontawesome.com/icons) to search for free and Pro icons**
 
 ```
-$ npm i --save @fortawesome/free-brands-svg-icons
-$ npm i --save @fortawesome/free-regular-svg-icons
+$ npm i --save @minddocdev/free-brands-svg-icons
+$ npm i --save @minddocdev/free-regular-svg-icons
 ```
 
 If you are a [Font Awesome Pro](https://fontawesome.com/pro) subscriber you can install Pro packages after these [additional configuration](https://fontawesome.com/how-to-use/on-the-web/setup/using-package-managers) are made.
 
 ```
-$ npm i --save @fortawesome/pro-solid-svg-icons
-$ npm i --save @fortawesome/pro-regular-svg-icons
-$ npm i --save @fortawesome/pro-light-svg-icons
-$ npm i --save @fortawesome/pro-duotone-svg-icons
+$ npm i --save @minddocdev/pro-solid-svg-icons
+$ npm i --save @minddocdev/pro-regular-svg-icons
+$ npm i --save @minddocdev/pro-light-svg-icons
+$ npm i --save @minddocdev/pro-duotone-svg-icons
 ```
 
 **Duotone icons are currently in pre-release and are coming soon to this component.**
@@ -125,9 +125,9 @@ $ npm i --save @fortawesome/pro-duotone-svg-icons
 Or with Yarn:
 
 ```
-$ yarn add @fortawesome/fontawesome-svg-core
-$ yarn add @fortawesome/free-solid-svg-icons
-$ yarn add @fortawesome/vue-fontawesome
+$ yarn add @minddocdev/fontawesome-svg-core
+$ yarn add @minddocdev/free-solid-svg-icons
+$ yarn add @minddocdev/vue-fontawesome
 ```
 
 ## Usage
@@ -141,9 +141,9 @@ The following examples are based on a project configured with [vue-cli](https://
 ```javascript
 import Vue from 'vue'
 import App from './App'
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { faUserSecret } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import { library } from '@minddocdev/fontawesome-svg-core'
+import { faUserSecret } from '@minddocdev/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@minddocdev/vue-fontawesome'
 
 library.add(faUserSecret)
 
@@ -178,8 +178,8 @@ export default {
 #### Using Solid icons
 
 ```javascript
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { faUserSecret } from '@fortawesome/free-solid-svg-icons'
+import { library } from '@minddocdev/fontawesome-svg-core'
+import { faUserSecret } from '@minddocdev/free-solid-svg-icons'
 
 library.add(faUserSecret)
 ```
@@ -196,8 +196,8 @@ library.add(faUserSecret)
 #### Using Brand icons
 
 ```javascript
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { faFontAwesome } from '@fortawesome/free-brands-svg-icons'
+import { library } from '@minddocdev/fontawesome-svg-core'
+import { faFontAwesome } from '@minddocdev/free-brands-svg-icons'
 
 library.add(faFontAwesome)
 ```
@@ -212,9 +212,9 @@ library.add(faFontAwesome)
 Using the Pro packages requires [additional configuration](https://fontawesome.com/how-to-use/on-the-web/setup/using-package-managers).
 
 ```javascript
-import { library } from '@fortawesome/fontawesome-svg-core'
+import { library } from '@minddocdev/fontawesome-svg-core'
 # Note we are using the Pro style here
-import { faUserSecret } from '@fortawesome/pro-regular-svg-icons'
+import { faUserSecret } from '@minddocdev/pro-regular-svg-icons'
 
 library.add(faUserSecret)
 ```
@@ -226,9 +226,9 @@ library.add(faUserSecret)
 #### Using Light icons
 
 ```javascript
-import { library } from '@fortawesome/fontawesome-svg-core'
+import { library } from '@minddocdev/fontawesome-svg-core'
 # Note we are using the Pro style here
-import { faUserSecret } from '@fortawesome/pro-light-svg-icons'
+import { faUserSecret } from '@minddocdev/pro-light-svg-icons'
 
 library.add(faUserSecret)
 ```
@@ -240,9 +240,9 @@ library.add(faUserSecret)
 #### Using Duotone icons
 
 ```javascript
-import { library } from '@fortawesome/fontawesome-svg-core'
+import { library } from '@minddocdev/fontawesome-svg-core'
 # Note we are using the Pro style here
-import { faUserSecret } from '@fortawesome/pro-duotone-svg-icons'
+import { faUserSecret } from '@minddocdev/pro-duotone-svg-icons'
 
 library.add(faUserSecret)
 ```
@@ -274,12 +274,12 @@ the ability to automatically transform `<i class="fas fa-coffee"></i>` into
 `<svg class="...">...</svg>` icons. This technology works with the browser's
 DOM, [`requestAnimationFrame`][raf], and [`MutationObserver`][mo].
 
-When using the `@fortawesome/fontawesome-svg-core` package this **behavior is
+When using the `@minddocdev/fontawesome-svg-core` package this **behavior is
 disabled by default**. This project uses that package so you will have to
 explicitly enable it like this:
 
 ```javascript
-import { dom } from '@fortawesome/fontawesome-svg-core'
+import { dom } from '@minddocdev/fontawesome-svg-core'
 
 dom.watch() // This will kick of the initial replacement of i to svg tags and configure a MutationObserver
 ```
@@ -304,8 +304,8 @@ The `icon` property of the `FontAwesomeIcon` component can be used in the follow
 For the above to work you must add the `spinner` and `align-left` icon to the library.
 
 ```javascript
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { faSpinner, faAlignLeft } from '@fortawesome/free-solid-svg-icons'
+import { library } from '@minddocdev/fontawesome-svg-core'
+import { faSpinner, faAlignLeft } from '@minddocdev/free-solid-svg-icons'
 
 library.add(faSpinner, faAlignLeft)
 ```
@@ -314,7 +314,7 @@ In the event that you are using an icon with a multi-word name please note that
 you would need to pass in the icon name using _kebab-case_ as opposed to _camelCase_.
 
 ```javascript
-<font-awesome-icon icon="address-card" />  # import { faAddressCard } from '@fortawesome/free-solid-svg-icons'
+<font-awesome-icon icon="address-card" />  # import { faAddressCard } from '@minddocdev/free-solid-svg-icons'
 ```
 
 #### Explicit prefix (note the Vue bind shorthand because this uses an array)
@@ -326,8 +326,8 @@ you would need to pass in the icon name using _kebab-case_ as opposed to _camelC
 For the above to work you must add the regular `spinner` icon (Pro only) to the library.
 
 ```javascript
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { faSpinner } from '@fortawesome/pro-regular-svg-icons'
+import { library } from '@minddocdev/fontawesome-svg-core'
+import { faSpinner } from '@minddocdev/pro-regular-svg-icons'
 
 library.add(faSpinner)
 ```
@@ -342,7 +342,7 @@ library.add(faSpinner)
 </template>
 
 <script>
-import { faChessQueen } from '@fortawesome/free-solid-svg-icons'
+import { faChessQueen } from '@minddocdev/free-solid-svg-icons'
 
 export default {
   name: 'App',
@@ -368,8 +368,8 @@ With Vue you can tell your component to resolve other component explicitly.
 </template>
 
 <script>
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import { faSpinner } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@minddocdev/vue-fontawesome'
+import { faSpinner } from '@minddocdev/free-solid-svg-icons'
 
 export default {
   name: 'MyComponent',
@@ -396,9 +396,9 @@ thousands of icons to just the small number that are normally used.
 #### Import the specific icons that you need
 
 ```javascript
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
-import { faSpinner } from '@fortawesome/pro-light-svg-icons'
+import { library } from '@minddocdev/fontawesome-svg-core'
+import { faCoffee } from '@minddocdev/free-solid-svg-icons'
+import { faSpinner } from '@minddocdev/pro-light-svg-icons'
 
 library.add(faCoffee, faSpinner)
 ```
@@ -406,11 +406,11 @@ library.add(faCoffee, faSpinner)
 #### Import the same icon from different styles
 
 ```javascript
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { faCoffee as fasCoffee } from '@fortawesome/pro-solid-svg-icons'
-import { faCoffee as farCoffee } from '@fortawesome/pro-regular-svg-icons'
-import { faCoffee as falCoffee } from '@fortawesome/pro-light-svg-icons'
-import { faCoffee as fadCoffee } from '@fortawesome/pro-duotone-svg-icons'
+import { library } from '@minddocdev/fontawesome-svg-core'
+import { faCoffee as fasCoffee } from '@minddocdev/pro-solid-svg-icons'
+import { faCoffee as farCoffee } from '@minddocdev/pro-regular-svg-icons'
+import { faCoffee as falCoffee } from '@minddocdev/pro-light-svg-icons'
+import { faCoffee as fadCoffee } from '@minddocdev/pro-duotone-svg-icons'
 
 library.add(fasCoffee, farCoffee, falCoffee, fadCoffee)
 ```
@@ -425,7 +425,7 @@ library.add(fasCoffee, farCoffee, falCoffee, fadCoffee)
 #### Import entire styles
 
 ```javascript
-import { fab } from '@fortawesome/free-brands-svg-icons'
+import { fab } from '@minddocdev/free-brands-svg-icons'
 
 library.add(fab)
 ```
@@ -442,15 +442,15 @@ If you are not using a tool that supports tree shaking **you may end up bundling
 icons than you intend**. Here are some alternative import syntaxes:
 
 ```javascript
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons/faCoffee'
-import { faSpinner } from '@fortawesome/pro-light-svg-icons/faSpinner'
+import { library } from '@minddocdev/fontawesome-svg-core'
+import { faCoffee } from '@minddocdev/free-solid-svg-icons/faCoffee'
+import { faSpinner } from '@minddocdev/pro-light-svg-icons/faSpinner'
 
 library.add(faCoffee, faSpinner)
 ```
 
 How does this work? We have individual icon files like
-`node_modules/@fortawesome/free-solid-svg-icons/faCoffee.js` that contain just
+`node_modules/@minddocdev/free-solid-svg-icons/faCoffee.js` that contain just
 that specific icon.
 
 ## Features
@@ -467,7 +467,7 @@ library** before you bootstrap your Vue application.
 
 ```javascript
 import Vue from 'vue'
-import { FontAwesomeIcon, FontAwesomeLayers, FontAwesomeLayersText } from '@fortawesome/vue-fontawesome'
+import { FontAwesomeIcon, FontAwesomeLayers, FontAwesomeLayersText } from '@minddocdev/vue-fontawesome'
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 Vue.component('font-awesome-layers', FontAwesomeLayers)
@@ -591,19 +591,19 @@ Spin and pulse [animation](https://fontawesome.com/how-to-use/on-the-web/styling
 
 ### Nuxt.js
 
-Install `@fortawesome/vue-fontawesome` and `@fortawesome/fontawesome-svg-core` and any icon packages.
+Install `@minddocdev/vue-fontawesome` and `@minddocdev/fontawesome-svg-core` and any icon packages.
 
 ```
-npm install --save @fortawesome/vue-fontawesome @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons
+npm install --save @minddocdev/vue-fontawesome @minddocdev/fontawesome-svg-core @minddocdev/free-solid-svg-icons
 ```
 
 Inside your Nuxt.js project add a `plugins/fontawesome.js` file.
 
 ```javascript
 import Vue from 'vue'
-import { library, config } from '@fortawesome/fontawesome-svg-core'
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import { fas } from '@fortawesome/free-solid-svg-icons'
+import { library, config } from '@minddocdev/fontawesome-svg-core'
+import { FontAwesomeIcon } from '@minddocdev/vue-fontawesome'
+import { fas } from '@minddocdev/free-solid-svg-icons'
 
 // This is important, we are going to let Nuxt.js worry about the CSS
 config.autoAddCss = false
@@ -620,7 +620,7 @@ Modify `nuxt.config.js` adding to the `css` and `plugins` sections.
 
 ```javascript
 css: [
-  '@fortawesome/fontawesome-svg-core/styles.css'
+  '@minddocdev/fontawesome-svg-core/styles.css'
 ]
 ```
 
@@ -646,9 +646,9 @@ Here is an example that leverages the `mounted()` lifecycle hook to insert the C
 
 ```javascript
 <script>
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import { config, dom } from '@fortawesome/fontawesome-svg-core'
-import { faCoffee, faStroopwafel, faDragon } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@minddocdev/vue-fontawesome'
+import { config, dom } from '@minddocdev/fontawesome-svg-core'
+import { faCoffee, faStroopwafel, faDragon } from '@minddocdev/free-solid-svg-icons'
 
 // Make sure you tell Font Awesome to skip auto-inserting CSS into the <head>
 config.autoAddCss = false
@@ -788,7 +788,7 @@ doesn't appear in the expected style.
 In the following case which style should be used (light from the icon definition or regular from the far boolean):
 
 ```html
-import { faSpinner } from `@fortawesome/pro-light-svg-icons`
+import { faSpinner } from `@minddocdev/pro-light-svg-icons`
 
 <template>
   <font-awesome-icon far :icon="faSpinner" />

@@ -1,19 +1,19 @@
-# @fortawesome/fontawesome - SVG with JavaScript version
+# @minddocdev/fontawesome - SVG with JavaScript version
 
 > "I came here to chew bubblegum and install Font Awesome 5 - and I'm all out of bubblegum"
 
-[![npm](https://img.shields.io/npm/v/@fortawesome/fontawesome.svg?style=flat-square)](https://www.npmjs.com/package/@fortawesome/fontawesome)
+[![npm](https://img.shields.io/npm/v/@minddocdev/fontawesome.svg?style=flat-square)](https://www.npmjs.com/package/@minddocdev/fontawesome)
 
 ## Installation
 
 ```
-$ npm i --save @fortawesome/fontawesome
+$ npm i --save @minddocdev/fontawesome
 ```
 
 Or
 
 ```
-$ yarn add @fortawesome/fontawesome
+$ yarn add @minddocdev/fontawesome
 ```
 
 ## Documentation

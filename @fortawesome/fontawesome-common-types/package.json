@@ -48,7 +48,7 @@
   },
   "dependencies": {},
   "version": "0.2.26",
-  "name": "@fortawesome/fontawesome-common-types",
+  "name": "@minddocdev/fontawesome-common-types",
   "license": "MIT",
   "types": "./index.d.ts"
 }

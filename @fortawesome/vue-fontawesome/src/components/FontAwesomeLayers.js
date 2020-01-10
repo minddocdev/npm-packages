@@ -1,4 +1,4 @@
-import { config } from '@fortawesome/fontawesome-svg-core'
+import { config } from '@minddocdev/fontawesome-svg-core'
 import { addStaticClass } from '../utils'
 
 export default {

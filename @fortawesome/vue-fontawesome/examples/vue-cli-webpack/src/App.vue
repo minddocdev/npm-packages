@@ -45,7 +45,7 @@
 </template>
 
 <script>
-import { faChessQueen } from '@fortawesome/free-solid-svg-icons'
+import { faChessQueen } from '@minddocdev/free-solid-svg-icons'
 
 export default {
   name: 'App',

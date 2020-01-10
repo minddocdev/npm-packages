@@ -1,19 +1,19 @@
-# @fortawesome/free-brands-svg-icons - SVG with JavaScript version
+# @minddocdev/free-brands-svg-icons - SVG with JavaScript version
 
 > "I came here to chew bubblegum and install Font Awesome 5 - and I'm all out of bubblegum"
 
-[![npm](https://img.shields.io/npm/v/@fortawesome/free-brands-svg-icons.svg?style=flat-square)](https://www.npmjs.com/package/@fortawesome/free-brands-svg-icons)
+[![npm](https://img.shields.io/npm/v/@minddocdev/free-brands-svg-icons.svg?style=flat-square)](https://www.npmjs.com/package/@minddocdev/free-brands-svg-icons)
 
 ## Installation
 
 ```
-$ npm i --save @fortawesome/free-brands-svg-icons
+$ npm i --save @minddocdev/free-brands-svg-icons
 ```
 
 Or
 
 ```
-$ yarn add @fortawesome/free-brands-svg-icons
+$ yarn add @minddocdev/free-brands-svg-icons
 ```
 
 ## Documentation

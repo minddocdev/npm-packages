@@ -1,6 +1,6 @@
 (function (global, factory) {
-	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('@fortawesome/fontawesome-svg-core')) :
-	typeof define === 'function' && define.amd ? define(['exports', '@fortawesome/fontawesome-svg-core'], factory) :
+	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('@minddocdev/fontawesome-svg-core')) :
+	typeof define === 'function' && define.amd ? define(['exports', '@minddocdev/fontawesome-svg-core'], factory) :
 	(factory((global['vue-fontawesome'] = {}),global.FontAwesome));
 }(this, (function (exports,fontawesomeSvgCore) { 'use strict';
 

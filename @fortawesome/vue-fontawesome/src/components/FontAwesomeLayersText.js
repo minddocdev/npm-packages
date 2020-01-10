@@ -1,4 +1,4 @@
-import { config, parse, text } from '@fortawesome/fontawesome-svg-core'
+import { config, parse, text } from '@minddocdev/fontawesome-svg-core'
 import convert from '../converter'
 import { objectWithKey } from '../utils'
 

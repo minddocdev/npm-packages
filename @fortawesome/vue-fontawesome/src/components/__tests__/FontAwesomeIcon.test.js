@@ -1,6 +1,6 @@
 import Vue from 'vue/dist/vue'
 import FontAwesomeIcon from '../FontAwesomeIcon'
-import { library } from '@fortawesome/fontawesome-svg-core'
+import { library } from '@minddocdev/fontawesome-svg-core'
 import { faCoffee, faCircle } from '../__fixtures__/icons'
 import { compileAndMount, mountFromProps } from '../__fixtures__/helpers'
 

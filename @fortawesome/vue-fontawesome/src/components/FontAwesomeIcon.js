@@ -1,4 +1,4 @@
-import { parse as faParse, icon as faIcon } from '@fortawesome/fontawesome-svg-core'
+import { parse as faParse, icon as faIcon } from '@minddocdev/fontawesome-svg-core'
 import convert from '../converter'
 import log from '../logger'
 import { objectWithKey, classList } from '../utils'

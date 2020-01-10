@@ -1,4 +1,4 @@
-import { parse, icon, config, text } from '@fortawesome/fontawesome-svg-core';
+import { parse, icon, config, text } from '@minddocdev/fontawesome-svg-core';
 
 var commonjsGlobal = typeof window !== 'undefined' ? window : typeof global !== 'undefined' ? global : typeof self !== 'undefined' ? self : {};
 

@@ -12,7 +12,7 @@ As always, [submit issues](https://github.com/FortAwesome/vue-fontawesome/issues
 
 The following packages have been renamed as part of 5.1.0 of Font Awesome.
 
-_All packages are in the [@fortawesome NPM scope](https://www.npmjs.com/search?q=scope:fortawesome&page=1&ranking=optimal)_
+_All packages are in the [@minddocdev NPM scope](https://www.npmjs.com/search?q=scope:fortawesome&page=1&ranking=optimal)_
 
 | Old package(1)           | New package            |
 |--------------------------|------------------------|
@@ -42,10 +42,10 @@ What does that mean?
 ~~Old way:~~
 
 ```javascript
-import fontawesome from '@fortawesome/fontawesome'
-import solid from '@fortawesome/fontawesome-free-solid'
-import faTwitter from '@fortawesome/fontawesome-free-brands/faTwitter'
-import FontAwesomeIcon from '@fortawesome/vue-fontawesome'
+import fontawesome from '@minddocdev/fontawesome'
+import solid from '@minddocdev/fontawesome-free-solid'
+import faTwitter from '@minddocdev/fontawesome-free-brands/faTwitter'
+import FontAwesomeIcon from '@minddocdev/vue-fontawesome'
 
 fontawesome.library.add(solid, faTwitter)
 ```
@@ -53,10 +53,10 @@ fontawesome.library.add(solid, faTwitter)
 New way:
 
 ```javascript
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { fas } from '@fortawesome/free-solid-svg-icons'
-import { faTwitter } from '@fortawesome/free-brands-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import { library } from '@minddocdev/fontawesome-svg-core'
+import { fas } from '@minddocdev/free-solid-svg-icons'
+import { faTwitter } from '@minddocdev/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@minddocdev/vue-fontawesome'
 
 library.add(fas, faTwitter)
 ```
@@ -64,7 +64,7 @@ library.add(fas, faTwitter)
 This is also a valid way to import icons that works if your tool does not support tree shaking:
 
 ```javascript
-import { faTwitter } from '@fortawesome/free-brands-svg-icons/faTwitter'
+import { faTwitter } from '@minddocdev/free-brands-svg-icons/faTwitter'
 ```
 
 ### Improved support for tree shaking
@@ -82,7 +82,7 @@ module.exports = {
   // ...
   resolve: {
     alias: {
-      '@fortawesome/fontawesome-free-solid$': '@fortawesome/fontawesome-free-solid/shakable.es.js'
+      '@minddocdev/fontawesome-free-solid$': '@minddocdev/fontawesome-free-solid/shakable.es.js'
     }
   }
 }
@@ -95,7 +95,7 @@ rollup({
   // ...
   plugins: [
     alias({
-      '@fortawesome/fontawesome-free-solid': 'node_modules/@fortawesome/fontawesome-free-solid/shakable.es.js'
+      '@minddocdev/fontawesome-free-solid': 'node_modules/@minddocdev/fontawesome-free-solid/shakable.es.js'
     })
   ]
 })
@@ -107,7 +107,7 @@ If you were previously relying on Font Awesome to replace any `<i>` tags in
 your page or app with `<svg>` you'll need to explicitly control that now.
 
 ```javascript
-import { dom } from '@fortawesome/fontawesome-svg-core'
+import { dom } from '@minddocdev/fontawesome-svg-core'
 
 dom.watch() // This will kick of the replacement of i tags and configure a MutationObserver
 ```

@@ -1,10 +1,10 @@
 import Vue from 'vue'
 import App from './App'
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { faCoffee, faChild, faCircle, faArchive } from '@fortawesome/free-solid-svg-icons'
-import { faComment } from '@fortawesome/free-regular-svg-icons'
-import { faTwitter } from '@fortawesome/free-brands-svg-icons'
-import { FontAwesomeIcon, FontAwesomeLayers, FontAwesomeLayersText } from '@fortawesome/vue-fontawesome'
+import { library } from '@minddocdev/fontawesome-svg-core'
+import { faCoffee, faChild, faCircle, faArchive } from '@minddocdev/free-solid-svg-icons'
+import { faComment } from '@minddocdev/free-regular-svg-icons'
+import { faTwitter } from '@minddocdev/free-brands-svg-icons'
+import { FontAwesomeIcon, FontAwesomeLayers, FontAwesomeLayersText } from '@minddocdev/vue-fontawesome'
 
 library.add(
   faCoffee,
