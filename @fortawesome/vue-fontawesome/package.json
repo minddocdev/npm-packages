@@ -1,15 +1,14 @@
 {
-  "name": "@fortawesome/vue-fontawesome",
+  "name": "@minddocdev/vue-fontawesome",
   "description": "Official Vue component for Font Awesome 5",
   "version": "0.1.9",
   "main": "index.js",
   "module": "index.es.js",
   "jsnext:main": "index.es.js",
   "types": "index.d.ts",
-  "homepage": "https://github.com/FortAwesome/vue-fontawesome",
   "repository": {
     "type": "git",
-    "url": "https://github.com/FortAwesome/vue-fontawesome.git"
+    "url": "https://github.com/minddocdev/npm-packages.git"
   },
   "contributors": [
     "Travis Chase <travis@fontawesome.com>",
